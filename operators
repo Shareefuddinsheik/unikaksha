@@ -18,3 +18,24 @@ y=int(input())
 x,y=y,x
 print(x)
 print(y)
+programe 4(Swapping without third variable)
+x=int(input())
+y=int(input())
+x,y=y,x
+print(x)
+print(y)
+
+programe 5(Average Calculation)
+a=float(input())
+b=float(input())
+c=float(input())
+d=float(input())
+e=float(input())
+print((a+b+c+d+e)/5)
+
+programe 6(Alice in Wonderland)
+a=int(input())
+b=a//10
+c=a%10
+print(b+c)
+
