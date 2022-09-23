@@ -18,5 +18,65 @@ n=int(input())
 print(a,end=" ")
 for i in range(2,n+1):
     a=3*a
+    print(a,end=" "
+    
+    programe 4(series 4)
+ n=int(input())
+for i in range(0,n):
+    print(((3**i)/2))
+    
+    programe 5(series 5)
+    a=11
+n=int(input())
+print(a**2,end=" ")
+for i in range(2,n+1):
+    a+=4
+    print(a**2,end=" ")
+    
+    programe 6(series 6)
+    n=int(input())
+for i in range (1,n+1):
+    if(i%2==0):
+        print((i**2)-2)
+    else:
+        print((i**2)-1)
+
+programe 7(series 7)
+n=int(input())
+a=1
+b=4/2
+print(a)
+print(b)
+for i in range(1,n-1):
+    if (i%2==0):
+        b=b*3.0
+        print(b)
+    else:
+        a=a*3.0
+        print(a)
+        
+programe 8(series 8)
+n=int(input())
+a=4
+for i in range(0,n):
+    a=(a+(i**2))
     print(a,end=" ")
+    
+programe 9(series 9)
+n=int(input())
+a=2
+print(a)
+for i in range (2,n+1):
+    a=(a**2)-1
+    print(a)
+programe 10(series 10)
+x=95.0
+a=20.5
+print(x)
+print(x+a)
+x=x+a
+for i in range(1,n-1):
+    x=(x+(a+2*i))
+    print(x)
+        
    
