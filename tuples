@@ -1,0 +1,26 @@
+programe 1(Add an item)
+a=(4, 6, 2, 8, 3, 1)
+print(a)
+a=a+(9,)
+print(a)
+a=a[:5]+(15,20,25)+a[:5]
+print(a)
+b=list(a)
+b.append(30)
+b=tuple(b)
+print(b)
+
+programe 2(Length of a tuple)
+s=('c', 'y', 'f', 'u', 'n', 'o')
+print(s)
+print(len(s))
+
+programe 3(Reverse a Tuple)
+z=('c','y','f','u','n','o')
+print(z[::-1])
+
+programe 4(Repeated element in a tuples)
+p=(2,4,5,6,2,3,4,4,7)
+g=int(input())
+print(p)
+print(p.count(g))
